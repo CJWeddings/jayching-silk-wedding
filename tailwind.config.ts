@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				'playfair': ['Playfair Display', 'serif'],
 				'inter': ['Inter', 'sans-serif'],
+				'script': ['Great Vibes', 'cursive'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

@@ -73,7 +73,7 @@ const WeddingLogo = ({ size = 'md', className = '' }: {
       
       {/* Text below logo */}
       <div className="text-center mt-4">
-        <h1 className={`font-playfair font-bold text-gradient ${textSizes[size]} leading-tight`}>
+        <h1 className={`font-script text-gradient ${textSizes[size]} leading-tight`}>
           Christine & Jay
         </h1>
         {size !== 'sm' && (
