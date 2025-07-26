@@ -72,6 +72,9 @@ export default {
 				'champagne': 'hsl(var(--champagne))',
 				'pearl': 'hsl(var(--pearl))'
 			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

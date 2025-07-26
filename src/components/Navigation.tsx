@@ -41,10 +41,30 @@ const Navigation = () => {
       }`}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
+            {/* Elegant Logo */}
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-rose-gold rounded-full flex items-center justify-center">
-                <span className="text-white font-playfair font-bold text-sm">CJ</span>
+              <div className="w-10 h-10 relative">
+                {/* Outer glow ring */}
+                <div className="absolute inset-0 bg-gradient-to-br from-rose-gold to-gold rounded-full shadow-soft opacity-90"></div>
+                
+                {/* Inner background */}
+                <div className="absolute inset-0.5 bg-background/95 rounded-full backdrop-blur-sm"></div>
+                
+                {/* Monogram */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <svg viewBox="0 0 100 100" className="w-6 h-6" fill="currentColor">
+                    {/* Simplified C */}
+                    <path 
+                      d="M25 50 C25 35, 35 30, 45 35 C35 40, 35 60, 45 65 C35 70, 25 65, 25 50 Z" 
+                      className="fill-rose-gold"
+                    />
+                    {/* Simplified J */}
+                    <path 
+                      d="M55 30 L55 60 C55 70, 45 70, 40 65 C45 65, 50 60, 50 55 L50 30 C50 25, 55 25, 55 30 Z" 
+                      className="fill-gold"
+                    />
+                  </svg>
+                </div>
               </div>
               <span className="font-playfair font-semibold text-lg text-gradient">
                 Christine & Jay

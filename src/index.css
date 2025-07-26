@@ -48,6 +48,8 @@ All colors MUST be HSL.
     --gradient-rose-gold: linear-gradient(135deg, hsl(var(--rose-gold)), hsl(var(--gold)));
     --gradient-soft: linear-gradient(180deg, hsl(var(--pearl)), hsl(var(--blush)));
     --gradient-glassmorphism: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    --gradient-radial-rose: radial-gradient(circle, hsl(var(--rose-gold)), transparent);
+    --gradient-radial-gold: radial-gradient(circle, hsl(var(--gold)), transparent);
 
     /* Shadows */
     --shadow-soft: 0 4px 6px -1px hsl(var(--rose-gold) / 0.1), 0 2px 4px -1px hsl(var(--rose-gold) / 0.06);

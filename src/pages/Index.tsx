@@ -5,11 +5,17 @@ import WeddingParty from '@/components/WeddingParty';
 import VenueMap from '@/components/VenueMap';
 import RSVPSection from '@/components/RSVPSection';
 import ContactSection from '@/components/ContactSection';
+import BackgroundElements from '@/components/BackgroundElements';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Navigation />
+    <div className="min-h-screen relative">
+      {/* Beautiful Background Elements */}
+      <BackgroundElements />
+      
+      {/* Main Content */}
+      <div className="relative z-10">
+        <Navigation />
       
       <main>
         {/* Hero Section */}
@@ -59,6 +65,7 @@ const Index = () => {
           </div>
         </div>
       </footer>
+      </div>
     </div>
   );
 };
